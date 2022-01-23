@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/95c2bf42d89ffefa45a62.jpg" alt="annabelle Logo">
 </p>
 <h1 align="center">
-  <b>Annabelle</b>
+  <b>ANIMVILLE</b>
 </h1>
 
 
