@@ -115,10 +115,9 @@ python3 bot.py
 
 ### Note
 
-[Note To A So Called Dev](https://t.me/+FoPiA1qvfaRlNTc1): 
+[Note](https://t.me/+FoPiA1qvfaRlNTc1): 
 
-Kanging this codes and and editing a few lines and releasing a V.x  or an [joey](https://t.me/+FoPiA1qvfaRlNTc1), beta , gama branches of your repo wont make you a Developer.
-Fork the repo and edit as per your needs.
+If you are reading this right now, May God heal your wounded heart, remove your pain stress depression, anxiety, worries and problems. And he may replace them with good health, everlasting happiness and peace.
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
