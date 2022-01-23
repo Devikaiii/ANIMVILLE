@@ -1,8 +1,9 @@
 class script(object):
-    START_TXT = """Well I'm {}and you're {}. . . so I guess we know each other now! ...
+    START_TXT = """Well I'm {}and you're {}. . . so I guess we know each other now! ..."""
 
     HELP_TXT = """heya {}
 I have the following features. Tap the button in which you want help."""
+
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
