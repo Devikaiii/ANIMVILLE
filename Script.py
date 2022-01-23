@@ -14,7 +14,7 @@ I have the following features. Tap the button in which you want help."""
 - ANIMVILLE is a open source project made by <a href=https://t.me/+FoPiA1qvfaRlNTc1>DEVIKAIII</a>. 
 - Source - <a href= https://t.me/+FoPiA1qvfaRlNTc1>Click here </a>
 <b>Support channel:</b>
-- <a href=https://t.me/Dianasupport>ANIMVILLE • [ONLINE]</a>"""
+- <a href=https://t.me/Ddxbots>ANIMVILLE • [ONLINE]</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Annabelle will respond whenever a keyword is found the message
