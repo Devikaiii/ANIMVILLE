@@ -108,16 +108,16 @@ python3 bot.py
 
 
 ## Thanks to 
- - Thanks To Dan For His Awsome [Libary](https://github.com/hopepsycho/psycho)
- - Thanks To Mahesh For His Awesome [Media-Search-bot](https://github.com/hopepsycho/kunjappan2.0)
- - Thanks To [PSYCHO](https://github.com/hopepsycho) for Their Awesome [Unlimited Filter Bot](https://github.com/hopepsycho/king_of_psycho) And [AutoFilterBoT](https://github.com/hopepsycho/kunjappan2.0)
+ - Thanks To *** For His Awsome [Libary](https://github.com/hopepsycho/psycho)
+ - Thanks To *** For His Awesome [Media-Search-bot](https://github.com/hopepsycho/kunjappan2.0)
+ - Thanks To [***](https://github.com/hopepsycho) for Their Awesome [Unlimited Filter Bot](https://github.com/hopepsycho/king_of_psycho) And [AutoFilterBoT](https://github.com/hopepsycho/kunjappan2.0)
  - Thanks To All Everyone In This Journey
 
 ### Note
 
-[Note To A So Called Dev](https://telegram.dog/kunjappandevs): 
+[Note To A So Called Dev](https://t.me/+FoPiA1qvfaRlNTc1): 
 
-Kanging this codes and and editing a few lines and releasing a V.x  or an [alpha](https://telegram.dog/subin_works/204), beta , gama branches of your repo wont make you a Developer.
+Kanging this codes and and editing a few lines and releasing a V.x  or an [joey](https://t.me/+FoPiA1qvfaRlNTc1), beta , gama branches of your repo wont make you a Developer.
 Fork the repo and edit as per your needs.
 
 ## Disclaimer
