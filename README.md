@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/d2a6abfe3fbcfe63a906e.jpg" alt="annabelle Logo">
+  <img src="https://telegra.ph/file/95c2bf42d89ffefa45a62.jpg" alt="annabelle Logo">
 </p>
 <h1 align="center">
   <b>Annabelle</b>
@@ -54,7 +54,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/PMPriyankaMohan/Imdbot-Filter/tree/master">
+<a href="https://heroku.com/deploy?template=https://github.com/Devikaiii/ANIMVILLE">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
