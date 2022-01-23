@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """"""
+    START_TXT = """Heya {}"""
 
     HELP_TXT = """𝐇𝐞𝐲𝐚 {}
 I have the following features. Tap the button in which you want help."""
