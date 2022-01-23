@@ -128,12 +128,12 @@ async def next_page(bot, query):
             [InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📃 Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
         )
     elif off_set is None:
-        btn.append([InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
+        btn.append([InlineKeyboardButton(f"📃 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
                 InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
+                InlineKeyboardButton(f"📃 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
@@ -381,10 +381,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{files.file_name}"
         buttons = [[
-            InlineKeyboardButton("", url=''),
-            InlineKeyboardButton("", url='')
+            InlineKeyboardButton("🎭Group🎭", url='https://t.me/CKMoviez'),
+            InlineKeyboardButton("🔊Channel🔊", url='https://t.me/ddxbots')
             ],[
-            InlineKeyboardButton("", url='')
+            InlineKeyboardButton("❗️New Release❗️", url='https://t.me/CKOFFICIALS')
         ]]
             
         try:
@@ -403,7 +403,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
                 await query.answer('Check PM, I have sent files in pm',show_alert = True)
         except UserIsBlocked:
-            await query.answer('Unblock the bot mahn !',show_alert = True)
+            await query.answer('Please Restart the bot!',show_alert = True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={file_id}")
         except Exception as e:
@@ -411,7 +411,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒",show_alert=True)
+            await query.answer("AYSHERI 🥲",show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -430,10 +430,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{title}"
         buttons = [[
-            InlineKeyboardButton("", url=''),
-            InlineKeyboardButton("", url='')
+            InlineKeyboardButton("🎭Group🎭", url='https://t.me/CKMoviez'),
+            InlineKeyboardButton("🔊Channel🔊", url='https://t.me/ddxbots')
             ],[
-            InlineKeyboardButton("", url='')
+            InlineKeyboardButton("❗️New Release❗️", url='https://t.me/CKofficials')
         ]]
         await query.answer()
         await client.send_cached_media(
@@ -447,8 +447,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-        InlineKeyboardButton('🎭GROUP🎭', url='http://t.me/CK_linkz'),
-        InlineKeyboardButton('🔊CHANNEL🔊', url='https://t.me/EvaMariaUpdates')
+        InlineKeyboardButton('🎭GROUP🎭', url='http://t.me/ckmoviez'),
+        InlineKeyboardButton('🔊CHANNEL🔊', url='https://t.me/CKOFFICIALS')
     ],[
         InlineKeyboardButton('ℹ️ Help', callback_data='help'),
         InlineKeyboardButton('😊 About', callback_data='about')
@@ -648,11 +648,11 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"🗓 1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"📃 1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🗓 1/1",callback_data="pages")]
+            [InlineKeyboardButton(text="📃 1/1",callback_data="pages")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if IMDB else None
     if imdb:
