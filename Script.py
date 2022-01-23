@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """𝐖𝐄𝐋𝐋 𝐈'𝐌 [ANIMVILLE](https://t.me/Animvillebot)... 𝐘𝐎𝐔'𝐑𝐄 {}... 𝐒𝐎 𝐈 𝐆𝐔𝐄𝐒𝐒 𝐖𝐄 𝐊𝐍𝐎𝐖 𝐄𝐀𝐂𝐇 𝐎𝐓𝐇𝐄𝐑 𝐍𝐎𝐖!..."""
+    START_TXT = """𝐘𝐎𝐔'𝐑𝐄 {}... 𝐒𝐎 𝐈 𝐆𝐔𝐄𝐒𝐒 𝐖𝐄 𝐊𝐍𝐎𝐖 𝐄𝐀𝐂𝐇 𝐎𝐓𝐇𝐄𝐑 𝐍𝐎𝐖!..."""
 
     HELP_TXT = """𝐇𝐞𝐲𝐚 {}
 I have the following features. Tap the button in which you want help."""
