@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """You're {},
+    START_TXT = """You're {SURENAME},
 Well I'm <a href=https://t.me/{}>{}</a> So I guess we know each other now! ..."""
     HELP_TXT = """heya {}
 I have the following features. Tap the button in which you want help."""
