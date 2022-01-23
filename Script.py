@@ -1,7 +1,7 @@
 class script(object):
-    START_TXT = """Well I'm {}and you're {}. . . so I guess we know each other now! ..."""
+    START_TXT = """𝚆𝚎𝚕𝚕 𝚒𝚊𝚖 <a href=https://t.me/{}>{}</a>...𝚊𝚗𝚍 𝚢𝚘𝚞'𝚛𝚎{}... 𝚂𝚘 𝚒 𝚐𝚞𝚎𝚜𝚜 𝚠𝚎 𝚔𝚗𝚘𝚠 𝚎𝚊𝚌𝚑 𝚘𝚝𝚑𝚎𝚛 𝚗𝚘𝚠!..."""
 
-    HELP_TXT = """heya {}
+    HELP_TXT = """𝐇𝐞𝐲𝐚 {}
 I have the following features. Tap the button in which you want help."""
 
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -12,7 +12,7 @@ I have the following features. Tap the button in which you want help."""
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>ANIMVILLE:</b>
 - ANIMVILLE is a open source project made by <a href=https://t.me/+FoPiA1qvfaRlNTc1>DEVIKAIII</a>. 
-- Source - <a href= https://t.me/+FoPiA1qvfaRlNTc1>Click here </a>
+- Source - <a href= https://t.me/+FoPiA1qvfaRlNTc1>𝘾𝙡𝙞𝙘𝙠 𝙃𝙚𝙧𝙚 </a>
 <b>Support channel:</b>
 - <a href=https://t.me/Ddxbots>ANIMVILLE • [ONLINE]</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
