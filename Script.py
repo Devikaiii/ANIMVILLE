@@ -1,5 +1,6 @@
 class script(object):
-    START_TXT = """Heya {}"""
+    START_TXT = """𝐇𝐢 {},
+𝐈𝐦 𝐚𝐧 𝐀𝐮𝐭𝐨 𝐟𝐢𝐥𝐭𝐞𝐫 𝐛𝐨𝐭 𝐰𝐡𝐢𝐜𝐡 𝐜𝐚𝐧 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐋𝐨𝐭𝐬 𝐨𝐟 🎭𝐌𝐨𝐯𝐢𝐞𝐬🎭 𝐀𝐧𝐝 🍿𝐒𝐞𝐫𝐢𝐞𝐬🍿 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩."""
 
     HELP_TXT = """𝐇𝐞𝐲𝐚 {}
 I have the following features. Tap the button in which you want help."""
