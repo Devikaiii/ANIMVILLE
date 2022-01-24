@@ -97,6 +97,7 @@ async def next_page(bot, query):
     if SINGLE_BUTTON:
         btn = [
             [
+                InlineKeyboardButton("🔊JOIN NEW MOVIES CHANNEL🔊", url='https://t.me/CKofficials'),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)} | {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
@@ -622,6 +623,7 @@ async def auto_filter(client, msg, spoll=False):
     if SINGLE_BUTTON:
         btn = [
             [
+                InlineKeyboardButton("🔊JOIN NEW MOVIES CHANNEL🔊", url='https://t.me/CKofficials'),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)} l {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
