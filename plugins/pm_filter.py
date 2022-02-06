@@ -85,6 +85,27 @@ async def next_page(bot, query):
     if not search:
         await query.answer("You are using one of my old messages, please send the request again.",show_alert=True)
         return
+ files = files_[0]
+        title = files.file_name
+        size=get_size(files.file_size)
+        f_caption=files.caption
+        if CUSTOM_FILE_CAPTION:
+            try:
+                f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
+            except Exception as e:
+                logger.exception(e)
+            f_caption=f_caption
+        if f_caption is None:
+            f_caption = f"{files.file_name}"
+        buttons = [
+            [
+                InlineKeyboardButton('🎭Group🎭', url='http://t.me/CKmoviez')
+            ],
+            [
+                InlineKeyboardButton('🔊Channel🔊', url=f'https://t.me/firstshowers')
+            ]
+            ]
+
 
     files, n_offset, total = await get_search_results(search, offset=offset, filter=True)
     try:
